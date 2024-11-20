@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -41,7 +41,7 @@ def get_size(size):
         size /= 1024.0
     return "%.2f %s" % (size, units[i])
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @KingVJ0
 
@@ -73,7 +73,7 @@ async def start(client, message):
         )
         return
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -213,7 +213,7 @@ async def start(client, message):
             await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
         return
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -240,7 +240,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@VJ_Botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@Star_light_10  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -277,7 +277,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -334,7 +334,7 @@ async def start(client, message):
         await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")       
         
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -353,7 +353,7 @@ async def shortener_api_handler(client, m: Message):
         await update_user_info(user_id, {"shortener_api": api})
         await m.reply("<b>Shortener API updated successfully to</b> " + api)
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -376,7 +376,7 @@ async def base_site_handler(client, m: Message):
         await update_user_info(user_id, {"base_site": base_site})
         await m.reply("<b>Base Site updated successfully</b>")
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -402,7 +402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -453,7 +453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )          
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -474,7 +474,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )  
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -496,7 +496,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await asyncio.sleep(1)
             await xo.delete()
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -529,6 +529,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(f"☣something went wrong\n\n{e}", show_alert=True)
             return
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10

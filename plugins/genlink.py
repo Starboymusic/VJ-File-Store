@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @Star_light_10
 
@@ -14,7 +14,7 @@ import json
 import base64
 import logging
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -28,7 +28,7 @@ async def allowed(_, __, message):
         return True
     return False
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -65,7 +65,7 @@ async def gen_link_s(bot, message):
     if message.has_protected_content and message.chat.id not in ADMINS:
         return await message.reply("okDa")
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -86,7 +86,7 @@ async def gen_link_s(bot, message):
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
         
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -108,7 +108,7 @@ async def gen_link_batch(bot, message):
     if f_chat_id.isnumeric():
         f_chat_id = int(("-100" + f_chat_id))
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -131,7 +131,7 @@ async def gen_link_batch(bot, message):
     except Exception as e:
         return await message.reply(f'Errors - {e}')
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -141,7 +141,7 @@ async def gen_link_batch(bot, message):
 
     outlist = []
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -170,7 +170,7 @@ async def gen_link_batch(bot, message):
                     "protect": cmd.lower().strip() == "/pbatch",
                 }
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -200,7 +200,7 @@ async def gen_link_batch(bot, message):
     else:
         await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\nContains `{og_msg}` files.\n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
         
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 

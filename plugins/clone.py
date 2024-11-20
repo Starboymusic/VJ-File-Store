@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -71,7 +71,7 @@ async def delete_cloned_bot(client, message):
         logging.exception("Error while deleting cloned bot.")
         await message.reply_text("An error occurred while deleting the cloned bot.")
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 

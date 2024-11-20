@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @Star_light_10
 
@@ -8,7 +8,7 @@ from plugins.database import unpack_new_file_id
 from clone_plugins.users_api import get_user, get_short_link
 import base64
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -23,7 +23,7 @@ async def gen_link_s(client: Client, message):
     if message.has_protected_content:
         return await message.reply("okDa")
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
@@ -41,7 +41,7 @@ async def gen_link_s(client: Client, message):
     await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
 
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     

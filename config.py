@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
@@ -83,7 +83,7 @@ else:
 URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     

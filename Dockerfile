@@ -1,5 +1,5 @@
 # Don't Remove Credit @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot @Star_Boy_96
 # Ask Doubt on telegram @Star_light_10
 
 FROM python:3.10.8-slim-buster

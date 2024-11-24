@@ -11,11 +11,11 @@ class script(object):
 # Ask Doubt on telegram @Star_light_10
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 @YKD_KOREAN_DRAMA : {file_name}
 
 sɪᴢᴇ ⚙️: {file_size}
 
-Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/YKD_KOREAN_DRAMA)</b>""" 
+Jᴏɪɴ [ʏᴋᴅ ᴋᴏʀᴇᴀɴ ᴅʀᴀᴍᴀ](https://t.me/YKD_KOREAN_DRAMA)</b>""" 
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA

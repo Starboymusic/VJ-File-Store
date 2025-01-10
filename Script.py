@@ -53,7 +53,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Star_light_10>◄⏤͟͞ꭙͯ͢³🔥💞 𝐒𝐭𝐚𝐫 🥂𝐥𝐢𝐠𝐡𝐭𐏓꯭ ᷞ ͦ͢ ͮ ͤ</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/+YTq567GbiJY3M2Fl>𝐕𝐉 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/+YTq567GbiJY3M2Fl>𝐒𝐭𝐚𝐫𝐛𝐨𝐲 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
 
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Star_Boy_96_vibes>𝐕𝐉 𝐔𝐩𝐝𝐚𝐭𝐞</a></b>
 """

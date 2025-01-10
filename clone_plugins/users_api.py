@@ -1,7 +1,7 @@
 # © Telegram : @Star_light_10 , GitHub : @VJBots
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 import requests
@@ -10,7 +10,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from config import CLONE_DB_URI, DB_NAME
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 client = AsyncIOMotorClient(CLONE_DB_URI)
@@ -18,7 +18,7 @@ db = client[DB_NAME]
 col = db["users"]
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def get_short_link(user, link):
@@ -31,7 +31,7 @@ async def get_short_link(user, link):
         return data["shortenedUrl"]
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def get_user(user_id):
@@ -53,7 +53,7 @@ async def get_user(user_id):
     return user
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def update_user_info(user_id, value:dict):
@@ -63,7 +63,7 @@ async def update_user_info(user_id, value:dict):
     await col.update_one(myquery, newvalues)
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def total_users_count():
@@ -71,7 +71,7 @@ async def total_users_count():
     return count
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def get_all_users():
@@ -79,7 +79,7 @@ async def get_all_users():
     return all_users
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def delete_user(user_id):
@@ -87,6 +87,6 @@ async def delete_user(user_id):
 
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 

@@ -1,5 +1,5 @@
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 import re
@@ -70,7 +70,7 @@ async def delete_cloned_bot(client, message):
         await message.reply_text("An error occurred while deleting the cloned bot.")
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 async def restart_bots():

@@ -12,7 +12,7 @@ import logging
 import logging.config
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 # Get logging configurations
@@ -28,7 +28,7 @@ logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 
@@ -44,7 +44,7 @@ from aiohttp import web
 from TechVJ.server import web_server
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 import asyncio
@@ -55,7 +55,7 @@ from TechVJ.utils.keepalive import ping_server
 from TechVJ.bot.clients import initialize_clients
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 
@@ -65,7 +65,7 @@ StreamBot.start()
 loop = asyncio.get_event_loop()
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 
@@ -104,7 +104,7 @@ async def start():
     await idle()
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 if __name__ == '__main__':
@@ -115,5 +115,5 @@ if __name__ == '__main__':
 
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10

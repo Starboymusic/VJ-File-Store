@@ -9,7 +9,7 @@ from clone_plugins.users_api import get_user, get_short_link
 import base64
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
 
 @Client.on_message(filters.command(['link', 'plink']))
@@ -24,7 +24,7 @@ async def gen_link_s(client: Client, message):
         return await message.reply("okDa")
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     
     file_id, ref = unpack_new_file_id((getattr(replied, file_type.value)).file_id)
@@ -42,6 +42,6 @@ async def gen_link_s(client: Client, message):
 
 
 # Don't Remove Credit Tg - @Star_light_10
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/YKD_KOREAN_DRAMA
 # Ask Doubt on telegram @Star_light_10
     

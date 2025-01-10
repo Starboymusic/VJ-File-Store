@@ -1,8 +1,8 @@
-# © Telegram : @KingVJ01 , GitHub : @VJBots
+# © Telegram : @Star_light_10 , GitHub : @VJBots
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 import requests
 import json
@@ -11,7 +11,7 @@ from config import CLONE_DB_URI, DB_NAME
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 client = AsyncIOMotorClient(CLONE_DB_URI)
 db = client[DB_NAME]
@@ -19,7 +19,7 @@ col = db["users"]
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def get_short_link(user, link):
     api_key = user["shortener_api"]
@@ -32,7 +32,7 @@ async def get_short_link(user, link):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def get_user(user_id):
 
@@ -54,7 +54,7 @@ async def get_user(user_id):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def update_user_info(user_id, value:dict):
     user_id = int(user_id)
@@ -64,7 +64,7 @@ async def update_user_info(user_id, value:dict):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def total_users_count():
     count = await col.count_documents({})
@@ -72,7 +72,7 @@ async def total_users_count():
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def get_all_users():
     all_users = col.find({})
@@ -80,7 +80,7 @@ async def get_all_users():
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def delete_user(user_id):
     await col.delete_one({'user_id': int(user_id)})
@@ -88,5 +88,5 @@ async def delete_user(user_id):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 

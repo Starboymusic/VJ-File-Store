@@ -1,8 +1,8 @@
-# © Telegram : @KingVJ01 , GitHub : @VJBots
+# © Telegram : @Star_light_10 , GitHub : @VJBots
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 import requests
 import json
@@ -11,7 +11,7 @@ from plugins.clone import mongo_db
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def get_short_link(user, link):
     api_key = user["shortener_api"]
@@ -24,7 +24,7 @@ async def get_short_link(user, link):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def get_user(user_id):
     user_id = int(user_id)
@@ -41,7 +41,7 @@ async def get_user(user_id):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 async def update_user_info(user_id, value:dict):
     user_id = int(user_id)
@@ -51,4 +51,4 @@ async def update_user_info(user_id, value:dict):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10

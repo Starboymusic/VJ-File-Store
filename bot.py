@@ -1,6 +1,6 @@
 # Don't Remove Credit @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 
 import sys
@@ -13,7 +13,7 @@ import logging.config
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
@@ -29,7 +29,7 @@ logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 
 from pyrogram import Client, __version__
@@ -45,7 +45,7 @@ from TechVJ.server import web_server
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 import asyncio
 from pyrogram import idle
@@ -56,7 +56,7 @@ from TechVJ.bot.clients import initialize_clients
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 
 ppath = "plugins/*.py"
@@ -66,7 +66,7 @@ loop = asyncio.get_event_loop()
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 
 async def start():
@@ -105,7 +105,7 @@ async def start():
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 if __name__ == '__main__':
     try:
@@ -116,4 +116,4 @@ if __name__ == '__main__':
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10

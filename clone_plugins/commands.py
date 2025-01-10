@@ -1,6 +1,6 @@
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 import os
 import logging
@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 def get_size(size):
     """Get size in readable format"""
@@ -44,7 +44,7 @@ def get_size(size):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
@@ -70,7 +70,7 @@ async def start(client, message):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
     
     data = message.command[1]
     try:
@@ -128,7 +128,7 @@ async def start(client, message):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 @Client.on_message(filters.command('api') & filters.private)
 async def shortener_api_handler(client, m: Message):
@@ -149,7 +149,7 @@ async def shortener_api_handler(client, m: Message):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 @Client.on_message(filters.command("base_site") & filters.private)
 async def base_site_handler(client, m: Message):
@@ -171,7 +171,7 @@ async def base_site_handler(client, m: Message):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
 
 @Client.on_callback_query()
@@ -203,7 +203,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
 
     elif query.data == "help":
         buttons = [[
@@ -245,4 +245,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 # Don't Remove Credit Tg - @Star_light_10
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Star_light_10
